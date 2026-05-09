@@ -23,22 +23,15 @@ body {
 .header {
   position: fixed;
   top: 15px;
-
   left: 50px;
   right: 50px;
-
   z-index: 999;
-
   background: white;
-
   border-radius: 25px;
-
   display: flex;
   align-items: center;
   justify-content: space-between;
-
   padding: 10px 65px;
-
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
 }
 
@@ -68,12 +61,9 @@ body {
 .menu a {
   text-decoration: none;
   color: #1d7a2f;
-
   font-size: 20px;
   font-weight: 500;
-
   position: relative;
-
   transition: 0.3s;
 }
 
@@ -81,19 +71,13 @@ body {
 
 .menu a::after {
   content: "";
-
   position: absolute;
-
   left: 0;
   bottom: -8px;
-
   width: 0%;
   height: 3px;
-
   background: #1d7a2f;
-
   border-radius: 10px;
-
   transition: 0.3s;
 }
 
@@ -122,21 +106,14 @@ body {
 .cadastro {
   background: #146626;
   color: white;
-
   text-decoration: none;
-
   border: none;
   border-radius: 14px;
-
   padding: 16px 30px;
-
   font-size: 18px;
   font-weight: bold;
-
   cursor: pointer;
-
   transition: 0.3s;
-
   margin-right: -300px;
 }
 
@@ -156,17 +133,12 @@ body {
 .entrar {
   background: #146626;
   color: white;
-
   border: none;
   border-radius: 14px;
-
   padding: 16px 30px;
-
   font-size: 18px;
   font-weight: bold;
-
   cursor: pointer;
-
   transition: 0.3s;
 }
 
@@ -177,6 +149,23 @@ body {
 main,
 .secao {
   scroll-margin-top: 130px;
+}
+
+.secao {
+  min-height: 500px;
+  padding: 80px 20px;
+  text-align: center;
+  border-top: 2px solid rgba(20, 102, 38, 0.12);
+  box-shadow:
+    0 -8px 20px rgba(0, 0, 0, 0.03),
+    0 8px 20px rgba(0, 0, 0, 0.03);
+  margin-top: 80px;
+}
+
+.secao h1 {
+  font-size: 72px;
+  color: #146626;
+  margin-bottom: 30px;
 }
 
 .folha-centro {
@@ -224,11 +213,9 @@ main,
 
   width: fit-content;
   margin: 0 auto;
-
   display: flex;
   justify-content: center;
   align-items: center;
-
   padding: 0;
   border-radius: 30px;
   overflow: hidden;
@@ -244,18 +231,15 @@ main,
 .img-lateral {
   width: 490px;
   height: auto;
-
   position: absolute;
   right: 40px;
   top: 50%;
-
   transform: translateY(-85%);
 }
 
 .img-lateral-2 {
   width: 490px;
   height: auto;
-
   position: left;
   right: 40px;
   top: 50%;
@@ -265,20 +249,14 @@ main,
 
 .cta-final {
   background: #f7f7f2;
-
   width: 100%;
   max-width: 1200px;
-
   margin: 60px auto;
-
   padding: 18px 30px;
-
   border-radius: 25px;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
 }
 
@@ -291,11 +269,8 @@ main,
 .icone-folha {
   width: 70px;
   height: 70px;
-
   background: #dfe8c8;
-
   border-radius: 50%;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -319,36 +294,17 @@ main,
 .botao-cta {
   background: #146626;
   color: white;
-
   border: none;
   border-radius: 14px;
-
-  padding: 18px 35px;
-
-  font-size: 22px;
+  padding: 16px 30px;
+  font-size: 18px;
   font-weight: bold;
-
   cursor: pointer;
-
   transition: 0.3s;
 }
 
 .botao-cta:hover {
   background: #0d4e1a;
-}
-
-.secao {
-  min-height: 500px;
-  padding: 80px 20px;
-  text-align: center;
-
-  border-top: 2px solid rgba(20, 102, 38, 0.12);
-
-  box-shadow:
-    0 -8px 20px rgba(0, 0, 0, 0.03),
-    0 8px 20px rgba(0, 0, 0, 0.03);
-
-  margin-top: 80px;
 }
 
 .conteudo-imagens {
@@ -357,20 +313,12 @@ main,
 
 /* TÍTULO DAS SESSÕES */
 
-.secao h1 {
-  font-size: 45px;
-  color: #146626;
-  margin-bottom: 30px;
-}
-
 .historia {
   min-height: 100vh;
   padding: 90px 60px;
-
   display: flex;
   align-items: center;
   justify-content: space-between;
-
   gap: 80px;
 }
 
@@ -396,13 +344,20 @@ main,
 .historia-texto p {
   font-size: 22px;
   line-height: 1.55;
-  color: #2f2f2f;
+  color: #214b2a;
   margin-bottom: 30px;
+  text-align: left;
+  align-items: flex-start;
 }
 
 .historia-texto strong,
 .historia-card strong {
   color: #146626;
+}
+
+.historia-2 {
+  color: #214b2a;
+  text-align: left;
 }
 
 .botao-whats {
@@ -427,18 +382,12 @@ main,
 .ano {
   background: #0d8a3a;
   color: white;
-
   width: fit-content;
-
   padding: 15px 30px;
-
   border-radius: 18px;
-
   font-size: 35px;
   font-weight: bold;
-
   margin-bottom: 35px;
-
   display: flex;
   align-items: center;
   gap: 12px;
@@ -485,6 +434,21 @@ main,
   font-size: 15px;
   line-height: 1.4;
   font-weight: bold;
+}
+
+.titulo-historia img {
+  position: absolute;
+
+  width: 100px;
+
+  right: -65px;
+  top: 48px;
+
+  transform: rotate(8deg);
+}
+
+.titulo-historia span {
+  color: #4b9e4d;
 }
 
 /* DICAS */
@@ -534,32 +498,23 @@ main,
 .imagem-dica {
   width: 250px;
   height: 250px;
-
   margin: 0 auto 25px;
-
   border-radius: 50%;
   background: #e8f3dc;
-
   display: flex;
   align-items: center;
   justify-content: center;
-
   overflow: hidden;
-
   position: relative;
 }
 
 .imagem-dica img {
   width: 210px;
   height: 480px;
-
   object-fit: contain;
-
   position: absolute;
-
   top: 50%;
   left: 50%;
-
   transform: translate(-50%, -50%);
 }
 
@@ -570,7 +525,6 @@ main,
   border-radius: 50%;
   background: #e8f3dc;
   align-items: center;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -580,6 +534,29 @@ main,
   object-fit: contain;
   width: 280px;
   height: 280px;
+}
+
+.imagem-dica-3 {
+  width: 250px;
+  height: 250px;
+  margin: 0 auto 25px;
+  border-radius: 50%;
+  background: #e8f3dc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.imagem-dica-3 img {
+  width: 280px;
+  height: 480px;
+  object-fit: contain;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .card-dica h2 {
@@ -600,7 +577,7 @@ main,
 .card-dica p {
   font-size: 18px;
   line-height: 1.5;
-  color: #4b4b4b;
+  color: #146626;
   margin-bottom: 28px;
 }
 
@@ -614,4 +591,19 @@ main,
   font-size: 24px;
   font-weight: bold;
   cursor: pointer;
+}
+
+.titulo-historia {
+  position: relative;
+
+  text-align: left;
+  align-items: flex-start;
+  width: fit-content;
+
+  font-size: 82px;
+  line-height: 0.9;
+
+  color: #146626;
+
+  font-weight: bold;
 }
