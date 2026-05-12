@@ -104,7 +104,7 @@ body {
 /* BOTÃO CADASTRO */
 
 .cadastro {
-  background: #146626;
+  background: #358b3a;
   color: white;
   text-decoration: none;
   border: none;
@@ -132,7 +132,7 @@ body {
 /* BOTÃO ENTRAR */
 
 .entrar {
-  background: #146626;
+  background: #358b3a;
   color: white;
   border: none;
   border-radius: 14px;
@@ -307,7 +307,7 @@ main,
 .botao-cta {
   position: relative;
   z-index: 20;
-  background: #146626;
+  background: #358b3a;
   color: white;
   border: none;
   border-radius: 14px;
@@ -375,13 +375,20 @@ main,
 }
 
 .botao-whats {
-  background: #23862f;
+  background: #358b3a;
   color: white;
   border: none;
   border-radius: 20px;
   padding: 18px 35px;
   font-size: 24px;
   cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.botao-whats:hover {
+  background: #0d4e1a;
+  color: white;
+  transform: translateY(-5px);
 }
 
 .historia-card {
@@ -408,8 +415,8 @@ main,
 }
 
 .ano img {
-  width: 38px;
-  height: 38px;
+  width: 32px;
+  height: 32px;
 
   object-fit: contain;
 }
@@ -746,6 +753,9 @@ main,
 
 .btn-enviar:hover {
   background: #26752f;
+  color: white;
+  transform: translateY(-5px);
+  transition: transform 0.3s ease;
 }
 
 /* IMAGEM PRINCIPAL */
